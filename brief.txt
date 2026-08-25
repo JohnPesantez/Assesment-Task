@@ -1,0 +1,30 @@
+Project Outline
+
+The following development task is split into two parts:
+a) Build a simple React app to match the design, using the data and media provided.
+b) Implement sorting of the data using JavaScript.
+Next to this file, you will find three directories:
+1) /img – this contains all the product media you will need for the product list
+2) /data – this contains a .json file with all the data you require for the product list
+3) /png - The designs the final page should match
+
+Part A
+
+Using the JSON file (/data) and media provided (/img) build an example product list as per the design
+attached. There will be cases where products will not have all the data (such as review score or was
+price) and in these cases, you should not display anything. The design is an example of what the
+product list should look like on a desktop computer (1200px+ Display), however we would also like it
+to work on a mobile device (300px – 700px), however the design for this is up to you.
+
+The data should be fed in by a PHP headless API, with the page gracefully handling a potentially slow response time.
+
+Please note, although the design only shows examples of the first four products in the list, please
+use the full JSON file to render all 12 products.
+
+Part B
+
+The second part of this task is to implement sorting on the products, always sorting in ascending
+order. Only one sort should be active at any given time. There is no need for a sort to be active by
+default.
+
+We look forward to receiving your solution to this soon!
