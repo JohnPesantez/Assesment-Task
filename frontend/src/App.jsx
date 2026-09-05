@@ -38,7 +38,7 @@ function App() {
   const [sortBy, setSortBy] = useState("");
   
 
-  const displayedProducts = products
+  const displayedProducts = [...products]
     .sort((a, b) => {
       if (!sortBy) return 0;
 
@@ -126,7 +126,7 @@ function App() {
           </div>
         ) : (
           displayedProducts.map((product) => (
-            <article className="product-card" key={product.id}>
+            <article className="product-card" key={product.name}>
               <ProductImage
                 src={`${API_URL}/img/${product.img}.jpg`}
                 alt={product.name}
